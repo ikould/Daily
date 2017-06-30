@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Json</title>
+	</head>
+	<body>
+		<div class="add_json">
+			<h2 style="color:red">添加JSON</h2>
+			<div class="json_main">
+				<label>Name</label>
+				<input type="text" id="add_name"/>
+				<br />
+				<br />
+				<label>Type</label>
+				<input type="text" id="add_type"/>
+				<br />
+				<br />
+				<label>JSON</label>
+				<input type="text" id="add_json"/>
+				<br />
+				<br />
+			</div>
+			<button type="button" id="add_submit">提交</button>
+			<br />
+			<label id="add_result"></label>
+			<br />
+		</div>
+
+		<hr />
+		<br />
+
+		<div class="find_json">
+			<h2>查询JSON</h2>
+			<div class="json_main">
+				<label>Name</label>
+				<input type="text" id="find_name" />
+			</div>
+			<br />
+			<button type="button" id="find_submit">查询</button>
+			<br />
+			<br />
+			<label id="find_result"></label>
+		</div>
+		<hr />
+		<br />
+		<div class="delete_json">
+			<h2>删除JSON</h2>
+			<div class="json_main">
+				<label>Name</label>
+				<input type="text" id="delete_name"/>
+			</div>
+			<br />
+			<button type="button" id="delete_submit">删除</button>
+			<br />
+			<label id="delete_result"></label>
+			<br />
+		</div>
+	</body>
+</html>

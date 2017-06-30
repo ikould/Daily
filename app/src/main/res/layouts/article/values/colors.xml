@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="article_main_bg">#edeae5</color>
+    <color name="item_article_content">#e4dbd4</color>
+</resources>
